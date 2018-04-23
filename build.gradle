@@ -25,3 +25,14 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 artifacts {
     archives javadocJar
 }
+
+repositories {
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile 'network.bisq:bisq-common:-SNAPSHOT'
+    compile 'commons-codec:commons-codec:1.9'
+    testCompile 'junit:junit:4.12'
+}
