@@ -1,0 +1,14 @@
+# Gradle
+.gradle
+build
+
+# IDEA
+.idea
+*.iml
+out
+
+# macOS
+.DS_Store
+
+# Vim
+*.sw[op]

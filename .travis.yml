@@ -1,0 +1,8 @@
+language: java
+jdk: oraclejdk8
+notifications:
+  slack:
+    on_success: change
+    on_failure: always
+    rooms:
+      - secure: AB6RK/wD4td/OUOwSB8xsJQncG0w9WzFHrWcUfiRg9IVCUShNUuCpHUE9RADdtjs+E258kJ34QMxLdH19pECPRs8vpWR8DtH7szSSQUL2RsLkoAdiCqs3HBoctoNX5JY11gctCSPdgNjl80bEyFKoz0h9VBObY2ak028ojMFLwztNsNbvSFk2345yxg8vU0OucHb/5obwFjsHcU4AuAGC6HjdzDPr/px6DtPP1lqMeilEYFaVzLc6oKegkWS6dRQlA2WIm4+i43j64QGI4wkJb9+KmBY9AuaahKyJpcGOnzHVdEUWPHCVXUFuoZky8tbxyEQ4rZM7eM71Y5CehDevIDQAoJiIsRHXLLdSozPA0uL4XFOeCPdhRLdK/4/1og7sqhdDaFbCdwg0/jcpdQJXXLNav5/lfiO4kV6U4NBmqze55fuV4nE5hfKXq0g1KWZw2Lw3nSBn+nr3mBLWO/oAOESvrqoXrEG3MdVpbBDfnFnWtvI8w16DcvSvshQX+wOo0KaE2y/yjAqMn+64erBNxhQk1BrxviprlNhsDi+yNR49AVqjtE2j9iHtOZK1J6+vU81wcr7A/leqpD/ObvqSmX9O7DyV8sWc7x4SBU8EuHQQKpUkh6CjBovw+RQc3Brniax0mml9CvVFcjyMScpQpgwBRkQooEu1yW3uV8vpoM=
