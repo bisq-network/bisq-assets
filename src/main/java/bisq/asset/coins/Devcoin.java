@@ -17,12 +17,12 @@
 
 package bisq.asset.coins;
 
+import bisq.asset.Base58BitcoinAddressValidator;
 import bisq.asset.Coin;
-import bisq.asset.DefaultAddressValidator;
 
 public class Devcoin extends Coin {
 
     public Devcoin() {
-        super("Devcoin", "DVC", new DefaultAddressValidator());
+        super("Devcoin", "DVC", new Base58BitcoinAddressValidator());
     }
 }
