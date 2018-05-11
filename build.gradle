@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'network.bisq'
-version '0.7.0'
+version '-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
@@ -27,13 +27,12 @@ artifacts {
 }
 
 repositories {
-    mavenLocal()
     jcenter()
     maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    compile 'network.bisq:bisq-common:0.7.0'
+    compile 'network.bisq:bisq-common:-SNAPSHOT'
     compile 'commons-codec:commons-codec:1.9'
     testCompile 'junit:junit:4.12'
 }
