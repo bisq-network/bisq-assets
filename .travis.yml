@@ -1,6 +1,6 @@
 language: java
 jdk: oraclejdk8
-before_install: sort --check --ignore-case src/main/resources/META-INF/services/bisq.asset.Asset
+before_install: sort --check --dictionary-order --ignore-case src/main/resources/META-INF/services/bisq.asset.Asset
 notifications:
   slack:
     on_success: change
