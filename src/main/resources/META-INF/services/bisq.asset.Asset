@@ -1,16 +1,12 @@
-# All assets available for trading on the Bisq network.
-# Contents are sorted according to the output of `sort --ignore-case`.
-# See bisq.asset.Asset and bisq.asset.AssetRegistry for further details.
-# See https://bisq.network/list-asset for complete instructions.
 bisq.asset.coins.Achievecoin
 bisq.asset.coins.Angelcoin
 bisq.asset.coins.Arto
-bisq.asset.coins.Bitcoin$Mainnet
-bisq.asset.coins.Bitcoin$Regtest
-bisq.asset.coins.Bitcoin$Testnet
 bisq.asset.coins.BitcoinCash
 bisq.asset.coins.BitcoinClashic
 bisq.asset.coins.BitcoinGold
+bisq.asset.coins.Bitcoin$Mainnet
+bisq.asset.coins.Bitcoin$Regtest
+bisq.asset.coins.Bitcoin$Testnet
 bisq.asset.coins.Bitcore
 bisq.asset.coins.BitDaric
 bisq.asset.coins.BitZeny
@@ -48,10 +44,10 @@ bisq.asset.coins.Koto
 bisq.asset.coins.Kumacoin
 bisq.asset.coins.LBRY
 bisq.asset.coins.Lisk
+bisq.asset.coins.LitecoinExtreme
 bisq.asset.coins.Litecoin$Mainnet
 bisq.asset.coins.Litecoin$Regtest
 bisq.asset.coins.Litecoin$Testnet
-bisq.asset.coins.LitecoinExtreme
 bisq.asset.coins.Madbyte
 bisq.asset.coins.Madcoin
 bisq.asset.coins.MaidSafeCoin
