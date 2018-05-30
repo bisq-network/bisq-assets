@@ -23,6 +23,6 @@ import bisq.asset.RegexAddressValidator;
 public class Triton extends Coin {
 
     public Triton() {
-        super("Triton", "TRIT", new RegexAddressValidator("^T[0-9A-Za-z]{94}$"));
+        super("Triton", "TRIT", new RegexAddressValidator("^T\\d[0-9A-Za-z]{94}$"));
     }
 }
