@@ -27,6 +27,7 @@ bisq.asset.coins.Counterparty
 bisq.asset.coins.Creativecoin
 bisq.asset.coins.Cryptonite
 bisq.asset.coins.Cryptonodes
+bisq.asset.coins.DACash
 bisq.asset.coins.DarkNet
 bisq.asset.coins.Dash$Mainnet
 bisq.asset.coins.Dash$Regtest
@@ -38,11 +39,13 @@ bisq.asset.coins.Devcoin
 bisq.asset.coins.DigiMoney
 bisq.asset.coins.Dinero
 bisq.asset.coins.Dogecoin
+bisq.asset.coins.DRIP
 bisq.asset.coins.DSTRA
 bisq.asset.coins.DynamicCoin
 bisq.asset.coins.Espers
 bisq.asset.coins.Ether
 bisq.asset.coins.EtherClassic
+bisq.asset.coins.FuturoCoin
 bisq.asset.coins.Graft
 bisq.asset.coins.Gridcoin
 bisq.asset.coins.InfinityEconomics
@@ -99,6 +102,7 @@ bisq.asset.coins.Ubiq
 bisq.asset.coins.Unobtanium
 bisq.asset.coins.VDinar
 bisq.asset.coins.Wacoin
+bisq.asset.coins.Wavi
 bisq.asset.coins.WorldMobileCoin
 bisq.asset.coins.Wownero
 bisq.asset.coins.Xuez
