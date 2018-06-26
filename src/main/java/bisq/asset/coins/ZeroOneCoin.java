@@ -17,8 +17,8 @@
 
 package bisq.asset.coins;
 
-import bisq.asset.Coin;
 import bisq.asset.Base58BitcoinAddressValidator;
+import bisq.asset.Coin;
 import bisq.asset.NetworkParametersAdapter;
 
 public class ZeroOneCoin extends Coin {
@@ -26,7 +26,7 @@ public class ZeroOneCoin extends Coin {
     public ZeroOneCoin() {
         super("01coin", "ZOC", new Base58BitcoinAddressValidator(new ZeroOneCoinAddressParams()));
     }
-		
+
     public static class ZeroOneCoinAddressParams extends NetworkParametersAdapter {
 
         public ZeroOneCoinAddressParams() {
