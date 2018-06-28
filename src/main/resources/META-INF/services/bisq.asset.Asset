@@ -70,6 +70,7 @@ bisq.asset.coins.MFCoin
 bisq.asset.coins.MicroCoin
 bisq.asset.coins.Monero
 bisq.asset.coins.Namecoin
+bisq.asset.coins.Nano
 bisq.asset.coins.NavCoin
 bisq.asset.coins.NEETCOIN
 bisq.asset.coins.NewPowerCoin
