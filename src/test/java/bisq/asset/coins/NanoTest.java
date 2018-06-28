@@ -19,11 +19,6 @@ package bisq.asset.coins;
 
 import bisq.asset.AbstractAssetTest;
 
-/**
- * Created by will on 6/9/18 at 12:03 AM.
- *
- * @author Will "n9Mtq4" Bresnahan
- */
 public class NanoTest extends AbstractAssetTest {
 
     public NanoTest() {
@@ -53,5 +48,4 @@ public class NanoTest extends AbstractAssetTest {
         // assertInvalidAddress("xrb_1111111111111111111111111111111111111111111111111111hifc8npx"); // invalid checksum
         // assertInvalidAddress("xrb_1311111111111111111111111111111111111111111111111111hifc8npp"); // invalid checksum
     }
-
 }
