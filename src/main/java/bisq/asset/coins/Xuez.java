@@ -45,6 +45,7 @@ public class Xuez extends Coin {
         }
     }
 
+
     public static class XuezParams extends NetworkParametersAdapter {
 
         public XuezParams() {

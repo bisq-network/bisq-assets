@@ -28,6 +28,7 @@ public class Angelcoin extends Coin {
         super("Angelcoin", "ALC", new AngelcoinAddressValidator());
     }
 
+
     public static class AngelcoinAddressValidator extends Base58BitcoinAddressValidator {
 
         public AngelcoinAddressValidator() {
@@ -42,6 +43,7 @@ public class Angelcoin extends Coin {
             return super.validate(address);
         }
     }
+
 
     public static class AngelcoinParams extends NetworkParametersAdapter {
 

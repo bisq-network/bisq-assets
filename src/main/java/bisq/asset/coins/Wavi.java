@@ -44,6 +44,7 @@ public class Wavi extends Coin {
         }
     }
 
+
     public static class WaviParams extends NetworkParametersAdapter {
 
         public WaviParams() {

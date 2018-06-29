@@ -27,6 +27,7 @@ public class ZeroOneCoin extends Coin {
         super("01coin", "ZOC", new Base58BitcoinAddressValidator(new ZeroOneCoinAddressParams()));
     }
 
+
     public static class ZeroOneCoinAddressParams extends NetworkParametersAdapter {
 
         public ZeroOneCoinAddressParams() {

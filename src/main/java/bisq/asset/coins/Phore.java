@@ -44,6 +44,7 @@ public class Phore extends Coin {
         }
     }
 
+
     public static class PhoreParams extends NetworkParametersAdapter {
 
         public PhoreParams() {

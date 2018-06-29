@@ -80,6 +80,7 @@ public class WorldMobileCoin extends Coin {
 
     }
 
+
     public static class WorldMobileCoinParams extends NetworkParametersAdapter {
 
         public WorldMobileCoinParams() {
@@ -89,6 +90,7 @@ public class WorldMobileCoin extends Coin {
 
         }
     }
+
 
     private static class WitnessAddress extends VersionedChecksummedBytes {
         static final int PROGRAM_LENGTH_PKH = 20;
@@ -169,6 +171,7 @@ public class WorldMobileCoin extends Coin {
             return out.toByteArray();
         }
     }
+
 
     private static class Bech32 {
         private static final byte[] CHARSET_REV = {

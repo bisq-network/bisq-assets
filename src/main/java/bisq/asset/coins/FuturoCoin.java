@@ -28,6 +28,7 @@ public class FuturoCoin extends Coin {
         super("FuturoCoin", "FTO", new FuturoCoinValidator());
     }
 
+
     public static class FuturoCoinValidator extends Base58BitcoinAddressValidator {
 
         public FuturoCoinValidator() {
@@ -42,6 +43,7 @@ public class FuturoCoin extends Coin {
             return super.validate(address);
         }
     }
+
 
     public static class FuturoCoinParams extends NetworkParametersAdapter {
 

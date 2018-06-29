@@ -44,6 +44,7 @@ public class MegaCoin extends Coin {
         }
     }
 
+
     public static class MegaCoinParams extends NetworkParametersAdapter {
 
         public MegaCoinParams() {

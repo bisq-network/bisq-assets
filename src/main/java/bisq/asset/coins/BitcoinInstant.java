@@ -27,6 +27,7 @@ public class BitcoinInstant extends Coin {
         super("Bitcoin Instant", "BTI", new Base58BitcoinAddressValidator(new BitcoinInstantParams()));
     }
 
+
     public static class BitcoinInstantParams extends NetworkParametersAdapter {
 
         public BitcoinInstantParams() {
