@@ -25,7 +25,7 @@ import bisq.asset.NetworkParametersAdapter;
 public class Cryptonodes extends Coin {
 
     public Cryptonodes() {
-        super("Cryptonodes", "Cryptonodes", new CryptonodesAddressValidator());
+        super("Cryptonodes", "CNMC", new CryptonodesAddressValidator());
     }
 
 
