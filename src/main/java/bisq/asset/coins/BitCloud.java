@@ -44,6 +44,7 @@ public class BitCloud extends Coin {
         }
     }
 
+
     public static class BitCloudParams extends NetworkParametersAdapter {
 
         public BitCloudParams() {
