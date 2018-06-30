@@ -21,10 +21,10 @@ import bisq.asset.AbstractAssetTest;
 
 import org.junit.Test;
 
-public class LobstexCoinTest extends AbstractAssetTest {
-    
-    public LobstexCoinTest() {
-        super(new LobstexCoin());
+public class LobstexTest extends AbstractAssetTest {
+
+    public LobstexTest() {
+        super(new Lobstex());
     }
 
     @Test

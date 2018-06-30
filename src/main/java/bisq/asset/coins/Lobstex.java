@@ -20,9 +20,9 @@ package bisq.asset.coins;
 import bisq.asset.Coin;
 import bisq.asset.RegexAddressValidator;
 
-public class LobstexCoin extends Coin {
-    
-    public LobstexCoin() {
+public class Lobstex extends Coin {
+
+    public Lobstex() {
         super("Lobstex", "LOBS", new RegexAddressValidator("^L[1-9A-Za-z]{26,33}$"));
     }
 }
