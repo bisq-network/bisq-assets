@@ -26,7 +26,7 @@ import bisq.asset.NetworkParametersAdapter;
 public class Credits extends Coin {
 
     public Credits() {
-        super("Credits", "Credits", new CreditsAddressValidator());
+        super("Credits", "CRDS", new CreditsAddressValidator());
     }
 
 
