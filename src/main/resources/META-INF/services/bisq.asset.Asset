@@ -49,6 +49,7 @@ bisq.asset.coins.DynamicCoin
 bisq.asset.coins.Espers
 bisq.asset.coins.Ether
 bisq.asset.coins.EtherClassic
+bisq.asset.coins.FlakeChain
 bisq.asset.coins.FuturoCoin
 bisq.asset.coins.Graft
 bisq.asset.coins.Gridcoin
