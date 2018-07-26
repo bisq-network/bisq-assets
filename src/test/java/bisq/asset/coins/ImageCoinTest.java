@@ -39,7 +39,7 @@ public class ImageCoinTest extends AbstractAssetTest {
     public void testInvalidAddresses() {
         assertInvalidAddress("1fXBhPhSxx1wqxGQCryfgn6iU1M1XFUuCo32");
         assertInvalidAddress("CMde7YERCFWkCL2W5i8uyJmnpCVj8Chh");
-        assertInvalidAddress("CcbqU3MLZuGAED2CuhUkquyJxKaSJqv6V6#");
+        assertInvalidAddress("CcbqU3MLZuGAED2CuhUkquyJxKaSJqv6V6");
         assertInvalidAddress("bKaig5pznaUgiLqe6WkoCNGagNMhNLtqhKkggg");
     }
 }
