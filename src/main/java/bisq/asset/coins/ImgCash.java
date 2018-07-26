@@ -18,11 +18,12 @@
 package bisq.asset.coins;
 
 import bisq.asset.Coin;
-import bisq.asset.DefaultAddressValidator;
+import bisq.asset.RegexAddressValidator;
 
 public class ImgCash extends Coin {
 
     public ImgCash() {
-        super("ImgCash", "IMGC", new DefaultAddressValidator());
+        super("ImgCash", "IMGC", new RegexAddressValidator("^M[1-9A-Za-z^OIl]{95}"));
+     
     }
 }
