@@ -17,12 +17,23 @@
 
 package bisq.asset.coins;
 
+import bisq.asset.Base58BitcoinAddressValidator;
 import bisq.asset.Coin;
-import bisq.asset.RegexAddressValidator;
+import bisq.asset.NetworkParametersAdapter;
 
 public class ImageCoin extends Coin {
 
     public ImageCoin() {
-          super("ImageCoin", "IMG", new RegexAddressValidator("^M[1-9A-Za-z^OIl]{95}"));     
+          super("ImageCoin", "IMG", new Base58BitcoinAddressValidator(new IMGParams())); 
     }
+    
+     public static class IMGParams extends NetworkParametersAdapter {
+
+        public IMGParams() {
+            addressHeader = 0x1f;
+            p2shHeader = 0x5a;
+            acceptableAddressCodes = new int[]{addressHeader, p2shHeader};
+        }
+    }
+    
 }
