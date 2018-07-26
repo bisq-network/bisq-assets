@@ -20,9 +20,9 @@ package bisq.asset.coins;
 import bisq.asset.Coin;
 import bisq.asset.DefaultAddressValidator;
 
-public class ImgCash extends Coin {
+public class ImgCashTest extends Coin {
 
-    public ImgCash() {
+    public ImgCashTest() {
         super("ImgCash", "IMGC", new DefaultAddressValidator());
     }
 }
