@@ -30,7 +30,9 @@ public class ImageCoinTest extends AbstractAssetTest {
     @Override
     public void testValidAddresses() {
         assertValidAddress("MeUPKv7kysQUqwdmAP3RgN7rFnmCyeWoKW");
-       
+        assertValidAddress("MgejDHAMz5vvSZ3Gm98FxTzdESNjGoknot");
+        assertValidAddress("MkgNFjWYsrHVdo9N1Da4PVwy1kAr1ddv7Q");
+        assertValidAddress("McQTDa7ksEvqQXtYvBzDU1XsHetWxraB6W"); 
     }
 
     @Override
