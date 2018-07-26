@@ -17,23 +17,16 @@
 
 package bisq.asset.coins;
 
-import bisq.asset.Base58BitcoinAddressValidator;
+
 import bisq.asset.Coin;
-import bisq.asset.NetworkParametersAdapter;
+import bisq.asset.DefaultAddressValidator;
 
 public class ImageCoin extends Coin {
 
     public ImageCoin() {
-          super("ImageCoin", "IMG", new Base58BitcoinAddressValidator(new IMGParams())); 
+          super("ImageCoin", "IMG", new DefaultAddressValidator());
     }
     
-     public static class IMGParams extends NetworkParametersAdapter {
-
-        public IMGParams() {
-            addressHeader = 0x1f;
-            p2shHeader = 0x5a;
-            acceptableAddressCodes = new int[]{addressHeader, p2shHeader};
-        }
-    }
+   
     
 }
