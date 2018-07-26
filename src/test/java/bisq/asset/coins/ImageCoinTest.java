@@ -17,29 +17,13 @@
 
 package bisq.asset.coins;
 
-import bisq.asset.AbstractAssetTest;
+import bisq.asset.AbstractAssetWithDefaultValidatorTest;
 
 
-public class ImageCoinTest extends AbstractAssetTest {
+public class ImageCoinTest extends AbstractAssetWithDefaultValidatorTest {
 
     public ImageCoinTest() {
         super(new ImageCoin());
     }
 
-
-    @Override
-    public void testValidAddresses() {
-        assertValidAddress("MeUPKv7kysQUqwdmAP3RgN7rFnmCyeWoKW");
-        assertValidAddress("MgejDHAMz5vvSZ3Gm98FxTzdESNjGoknot");
-        assertValidAddress("MkgNFjWYsrHVdo9N1Da4PVwy1kAr1ddv7Q");
-        assertValidAddress("McQTDa7ksEvqQXtYvBzDU1XsHetWxraB6W"); 
-    }
-
-    @Override
-    public void testInvalidAddresses() {
-        assertInvalidAddress("1fXBhPhSxx1wqxGQCryfgn6iU1M1XFUuCo32");
-        assertInvalidAddress("CMde7YERCFWkCL2W5i8uyJmnpCVj8Chh");
-        assertInvalidAddress("CcbqU3MLZuGAED2CuhUkquyJxKaSJqv6V6");
-        assertInvalidAddress("bKaig5pznaUgiLqe6WkoCNGagNMhNLtqhKkggg");
-    }
 }
