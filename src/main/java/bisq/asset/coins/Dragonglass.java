@@ -20,9 +20,9 @@ package bisq.asset.coins;
 import bisq.asset.Coin;
 import bisq.asset.RegexAddressValidator;
 
-public class DRAGONGLASS extends Coin {
+public class Dragonglass extends Coin {
 
-    public DRAGONGLASS() {
-        super("DRAGONGLASS", "DRGL", new RegexAddressValidator("^(dRGL)[0-9A-Za-z]{94}$"));
+    public Dragonglass() {
+        super("Dragonglass", "DRGL", new RegexAddressValidator("^(dRGL)[0-9A-Za-z]{94}$"));
     }
 }
