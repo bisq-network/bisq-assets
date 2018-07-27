@@ -18,6 +18,7 @@
 package bisq.asset.coins;
 
 import bisq.asset.AbstractAssetTest;
+
 import org.junit.Test;
 
 public class RyoTest extends AbstractAssetTest {
