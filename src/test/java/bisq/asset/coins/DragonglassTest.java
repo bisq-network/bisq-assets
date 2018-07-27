@@ -21,10 +21,10 @@ import bisq.asset.AbstractAssetTest;
 
 import org.junit.Test;
 
-public class DRAGONGLASSTest extends AbstractAssetTest {
+public class DragonglassTest extends AbstractAssetTest {
 
-    public DRAGONGLASSTest() {
-        super(new DRAGONGLASS());
+    public DragonglassTest() {
+        super(new Dragonglass());
     }
 
     @Test
