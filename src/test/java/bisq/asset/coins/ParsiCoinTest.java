@@ -32,8 +32,6 @@
         assertInvalidAddress("gyr3Lqhqyx58mptQPyX2HGhpAKicB8rDeg1skAaT2FA747RLkKk8jkm6qw4gAm97WcaypimApB8aSPsfSPEZKAwi1wheJ1Hr2");
         assertInvalidAddress("iysGnTgR53FfchPUN6cehsChMihzJJwiuFxzxWnLUWF3UqHeaX4TEwz9GubvxU6uur3tp6M5LW2UdddLjMhsmNpY2wDJECxCR");
         assertInvalidAddress("");
-        assertInvalidAddress("hyrjMmPhaznQkJD6C9dcmbBH9y6r9vYAg2aTG9CHSzL1R89xrFi7wj1azmkXyLPiW&BeTCsKGMmr6JzygbP2ZGSN2JqWs1Wc$");
-        assertInvalidAddress("hyr3Lqhqyx58mptQPyX2HGhpAKicB8rDeg1skAaT2FA747RLkKk8jkm6*w4gAm97WcaypimApB8aSPsfSPEZKAwi1wheJ1Hr#");
 		assertInvalidAddress("hyr3Lqhqyx58mptQPyX2HGhpAKicB8rDeg1skAaT2FA747RLkKk8jkm6qw4gAm97WcaypimApB8aSPsfSPEZKAwi1wJ1Hr2");
         assertInvalidAddress("1Ns4XxNcte21oodqQH73j3eWryYpzZEPdX");
     }
