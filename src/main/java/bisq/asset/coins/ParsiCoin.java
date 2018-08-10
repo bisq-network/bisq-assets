@@ -19,6 +19,6 @@
 import bisq.asset.RegexAddressValidator;
  public class ParsiCoin extends Coin {
      public ParsiCoin() {
-        super("ParsiCoin", "PARS", new RegexAddressValidator("(h).{97}"));
+        super("ParsiCoin", "PARS", new RegexAddressValidator("(h).{96}"));
     }
 }
