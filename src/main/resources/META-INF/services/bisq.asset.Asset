@@ -74,6 +74,7 @@ bisq.asset.coins.MegaCoin
 bisq.asset.coins.MFCoin
 bisq.asset.coins.MicroCoin
 bisq.asset.coins.Monero
+bisq.asset.coins.MonetaryUnit
 bisq.asset.coins.Motion
 bisq.asset.coins.Myriadcoin
 bisq.asset.coins.Namecoin
