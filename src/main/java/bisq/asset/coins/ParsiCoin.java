@@ -14,11 +14,14 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
- package bisq.asset.coins;
- import bisq.asset.Coin;
+
+package bisq.asset.coins;
+
+import bisq.asset.Coin;
 import bisq.asset.RegexAddressValidator;
- public class ParsiCoin extends Coin {
-     public ParsiCoin() {
+
+public class ParsiCoin extends Coin {
+    public ParsiCoin() {
         super("ParsiCoin", "PARS", new RegexAddressValidator("(h).{96}"));
     }
 }
